@@ -216,7 +216,7 @@ const produtos = [
         categoria: "bebidas",
         nome: "Quentão 180ml",
         preco: "R$ 8,00",
-        icone: "fa-hotdog",
+        icone: "fa-glass-water",
         destaque: false,
         sabores: [
             "Vinho",
