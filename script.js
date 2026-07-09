@@ -50,14 +50,23 @@ const produtos = [
             "Chocolate com morango",
         ]
     },
+    
+    {
+        categoria: "alimentos",
+        nome: "Maça do Amor",
+        preco: "R$ 5,00",
+        icone: "fa-hotdog",
+        destaque: false,
+        sabores: []
+    },
 {
         categoria: "alimentos",
         nome: "Caldo 300ml",
-        preco: "R$ 15,00",
+        preco: "R$ 12,00",
         icone: "fa-hotdog",
         destaque: false,
         sabores: [
-            "Mandioca",
+            "Mandioca com Bacon e lenguiça",
         ]
     },
     {
@@ -67,7 +76,6 @@ const produtos = [
         icone: "fa-hotdog",
         destaque: false,
         sabores: [
-            "Chocolate",
             "Doce de Leite",
         ]
     },
@@ -90,6 +98,7 @@ const produtos = [
         destaque: false,
         sabores: [
             "Salgada",
+            "Doce",
         ]
 
     },
@@ -144,7 +153,7 @@ const produtos = [
     {
         categoria: "bebidas",
         nome: "Refrigerante 350ml(lata)",
-        preco: "R$ 7,00",
+        preco: "R$ 6,00",
         icone: "fa-glass-water",
         destaque: false,
         sabores: [
