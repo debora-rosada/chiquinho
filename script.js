@@ -47,7 +47,7 @@ const produtos = [
         sabores: [
             "Carne",
             "Medalhão de Frango",
-            "Chocolate com morango",
+            "Morango com chocolate",
         ]
     },
     
