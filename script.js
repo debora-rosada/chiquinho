@@ -14,7 +14,7 @@ const produtos = [
         nome: "Pão com Linguiça",
         preco: "R$ 15,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Linguiça Toscana",
             "Linguiça Apimentada",
@@ -43,7 +43,7 @@ const produtos = [
         nome: "Espetinhos",
         preco: "R$ 12,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Carne",
             "Medalhão de Frango",
@@ -55,7 +55,7 @@ const produtos = [
         nome: "Caldo 300ml",
         preco: "R$ 15,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Mandioca",
         ]
@@ -65,7 +65,7 @@ const produtos = [
         nome: "Churros",
         preco: "R$ 12,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Chocolate",
             "Doce de Leite",
@@ -76,7 +76,7 @@ const produtos = [
         nome: "Pamonha",
         preco: "R$ 12,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Doce",
             "Salgada",
@@ -87,7 +87,7 @@ const produtos = [
         nome: "Pipoca Copo",
         preco: "R$ 10,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Salgada",
         ]
@@ -98,7 +98,7 @@ const produtos = [
         nome: "Pipoca Saco",
         preco: "R$ 5,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Salgada",
             "Doce",
@@ -109,7 +109,7 @@ const produtos = [
         nome: "Canjica",
         preco: "R$ 8,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Doce",
         ]
@@ -119,7 +119,7 @@ const produtos = [
         nome: "Doce Bar/ Pudim",
         preco: "R$ 8,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Paçoca",
             "doce de abobora",
@@ -132,7 +132,7 @@ const produtos = [
         nome: "Bolo",
         preco: "R$ 8,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Aipin",
             "chocolate",
@@ -208,7 +208,7 @@ const produtos = [
         nome: "Quentão 180ml",
         preco: "R$ 8,00",
         icone: "fa-hotdog",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Vinho",
             "Cachaça",
@@ -221,7 +221,7 @@ const produtos = [
         nome: "Show de Prêmios",
         preco: "R$ 15,00",
         icone: "fa-ticket",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Apenas para o Domingo 12/07 às 14h"
         ]
@@ -232,7 +232,7 @@ const produtos = [
         nome: "Bingo",
         preco: "R$ 8,00",
         icone: "fa-ticket",
-        destaque: true,
+        destaque: false,
         sabores: [
             "Para participar do bingo, é necessário comprar cartela, poderá jogar nos dias 11/07 e 12/07"
         ]
@@ -243,7 +243,7 @@ const produtos = [
         nome: "Pescaria",
         preco: "R$ 8,00",
         icone: "fa-ticket",
-        destaque: true,
+        destaque: false,
         sabores: []
     },
 
