@@ -38,10 +38,112 @@ const produtos = [
             "Frango"
         ]
     },
+    {
+        categoria: "alimentos",
+        nome: "Espetinhos",
+        preco: "R$ 12,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Carne",
+            "Medalhão de Frango",
+            "Chocolate com morango",
+        ]
+    },
+{
+        categoria: "alimentos",
+        nome: "Caldo 300ml",
+        preco: "R$ 15,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Mandioca",
+        ]
+    },
+    {
+        categoria: "alimentos",
+        nome: "Churros",
+        preco: "R$ 12,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Chocolate",
+            "Doce de Leite",
+        ]
+    },
+    {
+        categoria: "alimentos",
+        nome: "Pamonha",
+        preco: "R$ 12,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Doce",
+            "Salgada",
+        ]
+    },
+    {
+        categoria: "alimentos",
+        nome: "Pipoca Copo",
+        preco: "R$ 10,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Salgada",
+        ]
 
+    },
+    {
+        categoria: "alimentos",
+        nome: "Pipoca Saco",
+        preco: "R$ 5,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Salgada",
+            "Doce",
+        ]
+    },
+    {
+        categoria: "alimentos",
+        nome: "Canjica",
+        preco: "R$ 8,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Doce",
+        ]
+    },
+    {
+        categoria: "alimentos",
+        nome: "Doce Bar/ Pudim",
+        preco: "R$ 8,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Paçoca",
+            "doce de abobora",
+            "Pé de moleque",
+            "Pudim",
+        ]
+    },
+    {
+        categoria: "alimentos",
+        nome: "Bolo",
+        preco: "R$ 8,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Aipin",
+            "chocolate",
+            
+        ]
+    },
+    
+    
     {
         categoria: "bebidas",
-        nome: "Refrigerante",
+        nome: "Refrigerante 350ml(lata)",
         preco: "R$ 7,00",
         icone: "fa-glass-water",
         destaque: false,
@@ -51,15 +153,99 @@ const produtos = [
             "Fanta"
         ]
     },
+    
+    
+    {
+        categoria: "bebidas",
+        nome: "Cerveja Heineken 350ml(lata)",
+        preco: "R$ 10,00",
+        icone: "fa-glass-water",
+        destaque: false,
+        sabores: [
+            "Sem Álcool",
+            "com Álcool",
+        ]
+    },
+    
+    {
+        categoria: "bebidas",
+        nome: "Suco 300ml",
+        preco: "R$ 10,00",
+        icone: "fa-glass-water",
+        destaque: false,
+        sabores: [
+            "Laranja",
+            "Uva",
+        ]
+    },
+    
+    {
+        categoria: "bebidas",
+        nome: "Cerveja",
+        preco: "R$ 6,00",
+        icone: "fa-glass-water",
+        destaque: false,
+        sabores: [
+            "Sckol",
+            "Brama",
+        ]
+    },
+    
+    {
+        categoria: "bebidas",
+        nome: "Agua",
+        preco: "R$ 3,00",
+        icone: "fa-glass-water",
+        destaque: false,
+        sabores: [
+            "Com Gás",
+            "Sem Gás",
+        ]
+    },
 
+    {
+        categoria: "bebidas",
+        nome: "Quentão 180ml",
+        preco: "R$ 8,00",
+        icone: "fa-hotdog",
+        destaque: true,
+        sabores: [
+            "Vinho",
+            "Cachaça",
+            "Sem Álcool",
+        ]
+    },
+    
     {
         categoria: "diversao",
         nome: "Show de Prêmios",
-        preco: "Consulte",
+        preco: "R$ 15,00",
+        icone: "fa-ticket",
+        destaque: true,
+        sabores: [
+            "Apenas para o Domingo 12/07 às 14h"
+        ]
+    },
+    
+    {
+        categoria: "diversao",
+        nome: "Bingo",
+        preco: "R$ 8,00",
+        icone: "fa-ticket",
+        destaque: true,
+        sabores: [
+            "Para participar do bingo, é necessário comprar cartela, poderá jogar nos dias 11/07 e 12/07"
+        ]
+    },
+    
+    {
+        categoria: "diversao",
+        nome: "Pescaria",
+        preco: "R$ 8,00",
         icone: "fa-ticket",
         destaque: true,
         sabores: []
-    }
+    },
 
 ];
 
