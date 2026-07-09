@@ -340,7 +340,7 @@ btnLocation.addEventListener("click",()=>{
 
     window.open(
 
-        "https://maps.google.com",
+        "https://www.google.com/maps/place/Par%C3%B3quia+S%C3%A3o+Francisco+de+Assis/@-23.3966075,-51.9366384,14z/data=!4m15!1m8!3m7!1s0x94ecd13d8c0a497d:0xa77d8c292798834f!2sJardim+Alvorada,+Maring%C3%A1+-+PR,+87035-510!3b1!8m2!3d-23.3967648!4d-51.9130553!16s%2Fg%2F1ymt38ksh!3m5!1s0x94ecd1167079e08b:0xc0bdc514a6b4ed5f!8m2!3d-23.3949558!4d-51.9138167!16s%2Fg%2F1ydkj3pr8?entry=ttu&g_ep=EgoyMDI2MDcwNi4wIKXMDSoASAFQAw%3D%3D",
 
         "_blank"
 

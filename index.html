@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
 
 
     <!-- FONT AWESOME -->
@@ -42,65 +42,55 @@
 <body>
 
 
-<!-- ================================================= -->
-<!-- SPLASH SCREEN -->
-<!-- ================================================= -->
+    <!-- ================================================= -->
+    <!-- SPLASH SCREEN -->
+    <!-- ================================================= -->
 
 
-<div id="splash-screen">
+    <div id="splash-screen">
 
 
-    <div class="splash-content">
+        <div class="splash-content">
 
 
-        <img src="img/chiquinho.png"
-        alt="Chiquinho"
-        class="splash-logo">
+            <img src="img/chiquinho.png" alt="Chiquinho" class="splash-logo">
 
 
-        <div class="decoracao-junina">
+            <h1>
+                Quermesse
+                <span>do Chiquinho</span>
+            </h1>
 
-            🌽 🎏 🌽
+
+            <p>
+                Paróquia São Francisco de Assis
+            </p>
+
+
+            <div class="loader"></div>
+
 
         </div>
-
-
-        <h1>
-            Quermesse
-            <span>do Chiquinho</span>
-        </h1>
-
-
-        <p>
-            Paróquia São Francisco de Assis
-        </p>
-
-
-        <div class="loader"></div>
 
 
     </div>
 
 
-</div>
 
 
 
+    <!-- ================================================= -->
+    <!-- BOTÕES FLUTUANTES -->
+    <!-- ================================================= -->
 
 
-<!-- ================================================= -->
-<!-- BOTÕES FLUTUANTES -->
-<!-- ================================================= -->
+    <button id="btn-location" title="Localização">
 
 
-<button id="btn-location"
-title="Localização">
+        <i class="fa-solid fa-location-dot"></i>
 
 
-<i class="fa-solid fa-location-dot"></i>
-
-
-</button>
+    </button>
 
 
 
@@ -108,74 +98,76 @@ title="Localização">
 title="Voltar ao topo">
 
 
-<i class="fa-solid fa-arrow-up"></i>
+        <i class="fa-solid fa-arrow-up"></i>
 
 
-</button>
+    </button>
 
 
 
 
 
-<!-- ================================================= -->
-<!-- CABEÇALHO HERO -->
-<!-- ================================================= -->
+    <!-- ================================================= -->
+    <!-- CABEÇALHO HERO -->
+    <!-- ================================================= -->
 
 
-<header>
+    <header>
 
-    <!-- Bandeirinhas no topo -->
-    <div class="flags">
+        <!-- Bandeirinhas no topo -->
+        <div class="flags">
 
         <img src="img/bandeirinhas.png"
         alt="Bandeirinhas">
 
-    </div>
+        </div>
 
 
-    <div class="hero-overlay">
+        <div class="hero-overlay">
 
 
-        <div class="hero-content">
+            <div class="hero-content">
 
 
-            <!-- Chiquinho lado esquerdo -->
+                <!-- Chiquinho lado esquerdo -->
 
-            <div class="hero-image">
+                <div class="hero-image">
 
                 <img 
                 src="img/chiquinho.png"
                 alt="Chiquinho"
                 class="chiquinho-logo">
 
-            </div>
+                </div>
 
 
 
-            <!-- Textos lado direito -->
+                <!-- Textos lado direito -->
 
-            <div class="hero-text">
-
-
-                <h1>
-
-                    QUERMESSE
-
-                    <strong>
-                        DO CHIQUINHO
-                    </strong>
-
-                </h1>
+                <div class="hero-text">
 
 
-                <p>
-                    Cardápio Digital
-                </p>
+                    <h1>
+
+                        QUERMESSE
+
+                        <strong>
+                            DO CHIQUINHO
+                        </strong>
+
+                    </h1>
+
+                    <p>
+                        Cardápio Digital
+                    </p>
 
 
-                <span>
-                    Paróquia São Francisco de Assis
-                </span>
+                    <span>
+                        Paróquia São Francisco de Assis
+                    </span>
+
+
+                </div>
 
 
             </div>
@@ -184,103 +176,100 @@ title="Voltar ao topo">
         </div>
 
 
-    </div>
+    </header>
 
 
-</header>
 
 
 
+    <!-- ================================================= -->
+    <!-- MENU DE NAVEGAÇÃO -->
+    <!-- ================================================= -->
 
 
-<!-- ================================================= -->
-<!-- MENU DE NAVEGAÇÃO -->
-<!-- ================================================= -->
+    <nav>
 
 
-<nav>
 
+        <button data-target="alimentos">
 
 
-<button data-target="alimentos">
+            <i class="fa-solid fa-fire"></i>
 
 
-<i class="fa-solid fa-fire"></i>
+            <span>
 
+                Comidas
 
-<span>
+            </span>
 
-Comidas
 
-</span>
+        </button>
 
 
-</button>
 
 
 
+        <button data-target="bebidas">
 
 
-<button data-target="bebidas">
+            <i class="fa-solid fa-mug-hot"></i>
 
 
-<i class="fa-solid fa-mug-hot"></i>
+            <span>
 
+                Bebidas
 
-<span>
+            </span>
 
-Bebidas
 
-</span>
+        </button>
 
 
-</button>
 
 
 
+        <button data-target="diversao">
 
 
-<button data-target="diversao">
+            <i class="fa-solid fa-ticket"></i>
 
 
-<i class="fa-solid fa-ticket"></i>
+            <span>
 
+                Diversão
 
-<span>
+            </span>
 
-Diversão
 
-</span>
+        </button>
 
 
-</button>
 
 
 
+        <button id="search-button">
 
 
-<button id="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
 
 
-<i class="fa-solid fa-magnifying-glass"></i>
+        </button>
 
 
-</button>
 
+    </nav>
 
 
-</nav>
 
 
 
+    <!-- ================================================= -->
+    <!-- PESQUISA -->
+    <!-- ================================================= -->
 
 
-<!-- ================================================= -->
-<!-- PESQUISA -->
-<!-- ================================================= -->
-
-
-<section id="search-area">
+    <section id="search-area">
 
 
 <input
@@ -289,43 +278,43 @@ id="search-input"
 placeholder="Procure uma delícia da quermesse...">
 
 
-</section>
-<!-- ================================================= -->
-<!-- CONTEÚDO PRINCIPAL -->
-<!-- ================================================= -->
+    </section>
+    <!-- ================================================= -->
+    <!-- CONTEÚDO PRINCIPAL -->
+    <!-- ================================================= -->
 
 
-<main>
+    <main>
 
 
 
-<!-- ================================================= -->
-<!-- ALIMENTOS -->
-<!-- ================================================= -->
+        <!-- ================================================= -->
+        <!-- ALIMENTOS -->
+        <!-- ================================================= -->
 
 
-<section id="alimentos" class="category">
+        <section id="alimentos" class="category">
 
 
-    <div class="category-title">
+            <div class="category-title">
 
 
-        <span>
-            🌽
-        </span>
+                <span>
+                    🌽
+                </span>
 
 
-        <h2>
-            Comidas da Roça
-        </h2>
+                <h2>
+                    Comidas da Roça
+                </h2>
 
 
-        <span>
-            🌽
-        </span>
+                <span>
+                    🌽
+                </span>
 
 
-    </div>
+            </div>
 
 
 
@@ -334,106 +323,102 @@ placeholder="Procure uma delícia da quermesse...">
     class="products-grid">
 
 
-    </div>
+            </div>
 
 
-</section>
+        </section>
 
 
 
 
 
-<!-- ================================================= -->
-<!-- BEBIDAS -->
-<!-- ================================================= -->
+        <!-- ================================================= -->
+        <!-- BEBIDAS -->
+        <!-- ================================================= -->
 
 
-<section id="bebidas" class="category">
+        <section id="bebidas" class="category">
 
 
-    <div class="category-title">
+            <div class="category-title">
 
 
-        <span>
-            🥤
-        </span>
+                <span>
+                    🥤
+                </span>
 
 
-        <h2>
-            Bebidas Geladas
-        </h2>
+                <h2>
+                    Bebidas Geladas
+                </h2>
 
 
-        <span>
-            🥤
-        </span>
+                <span>
+                    🥤
+                </span>
 
 
-    </div>
+            </div>
 
 
 
 
-    <div
-    id="bebidas-container"
-    class="products-grid">
+            <div id="bebidas-container" class="products-grid">
 
 
-    </div>
+            </div>
 
 
 
-</section>
+        </section>
 
 
 
 
 
-<!-- ================================================= -->
-<!-- DIVERSÃO -->
-<!-- ================================================= -->
+        <!-- ================================================= -->
+        <!-- DIVERSÃO -->
+        <!-- ================================================= -->
 
 
-<section id="diversao" class="category">
+        <section id="diversao" class="category">
 
 
-    <div class="category-title">
+            <div class="category-title">
 
 
-        <span>
-            🎟️
-        </span>
+                <span>
+                    🎟️
+                </span>
 
 
-        <h2>
-            Diversão e Prêmios
-        </h2>
+                <h2>
+                    Diversão e Prêmios
+                </h2>
 
 
-        <span>
-            🎟️
-        </span>
+                <span>
+                    🎟️
+                </span>
 
 
-    </div>
+            </div>
 
 
 
 
-    <div
-    id="diversao-container"
-    class="products-grid">
+            <div id="diversao-container" class="products-grid">
 
 
-    </div>
+            </div>
 
 
 
-</section>
+        </section>
 
 
 
-</main>
+    </main>
 
 
 
@@ -441,81 +426,77 @@ placeholder="Procure uma delícia da quermesse...">
 
 
 
-<!-- ================================================= -->
-<!-- RODAPÉ -->
-<!-- ================================================= -->
+    <!-- ================================================= -->
+    <!-- RODAPÉ -->
+    <!-- ================================================= -->
 
 
-<footer>
+    <footer>
 
 
 
 
-<div class="footer-logos">
+        <div class="footer-logos">
 
 
 
-    <img
-    src="img/logo-paroquia.png"
-    alt="Paróquia São Francisco de Assis">
+            <img src="img/logo-paroquia.png" alt="Paróquia São Francisco de Assis">
 
 
 
 
 
-    <img
-    src="img/logo-prefeitura.png"
-    alt="Prefeitura">
+            <img src="img/logo-prefeitura.png" alt="Prefeitura">
 
-</div>
+        </div>
 
 
 
 
 
-<div class="footer-text">
+        <div class="footer-text">
 
 
-    <h3>
+            <h3>
 
-        Obrigado pela sua participação!
+                Obrigado pela sua participação!
 
-    </h3>
+            </h3>
 
 
 
-    <p>
+            <p>
 
-        A sua presença torna nossa quermesse ainda mais especial.
+                A sua presença torna nossa quermesse ainda mais especial.
 
-    </p>
+            </p>
 
 
-    <h3>
+            <h3>
 
-        Paróquia São Francisco de Assis <br> Secretaria de Desenvolvimento Econômico e Turismo
+                Paróquia São Francisco de Assis <br> Secretaria de Desenvolvimento Econômico e Turismo
 
-    </h3>
+            </h3>
 
 
-</div>
+        </div>
 
 
 
 
-</footer>
+    </footer>
 
 
 
 
 
 
-<!-- ================================================= -->
-<!-- SCRIPTS -->
-<!-- ================================================= -->
+    <!-- ================================================= -->
+    <!-- SCRIPTS -->
+    <!-- ================================================= -->
 
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 
 
