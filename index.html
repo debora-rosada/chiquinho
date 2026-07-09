@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Quermesse do Chiquinho | Cardápio Digital
+    </title>
+
+    <meta name="description"
+    content="Cardápio Digital da Quermesse do Chiquinho - Paróquia São Francisco de Assis">
+
+
+    <!-- FONTES -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+<!-- ================================================= -->
+<!-- SPLASH SCREEN -->
+<!-- ================================================= -->
+
+
+<div id="splash-screen">
+
+
+    <div class="splash-content">
+
+
+        <img src="img/chiquinho.png"
+        alt="Chiquinho"
+        class="splash-logo">
+
+
+        <div class="decoracao-junina">
+
+            🌽 🎏 🌽
+
+        </div>
+
+
+        <h1>
+            Quermesse
+            <span>do Chiquinho</span>
+        </h1>
+
+
+        <p>
+            Paróquia São Francisco de Assis
+        </p>
+
+
+        <div class="loader"></div>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+<!-- ================================================= -->
+<!-- BOTÕES FLUTUANTES -->
+<!-- ================================================= -->
+
+
+<button id="btn-location"
+title="Localização">
+
+
+<i class="fa-solid fa-location-dot"></i>
+
+
+</button>
+
+
+
+<button id="btn-top"
+title="Voltar ao topo">
+
+
+<i class="fa-solid fa-arrow-up"></i>
+
+
+</button>
+
+
+
+
+
+<!-- ================================================= -->
+<!-- CABEÇALHO HERO -->
+<!-- ================================================= -->
+
+
+<header>
+
+    <!-- Bandeirinhas no topo -->
+    <div class="flags">
+
+        <img src="img/bandeirinhas.png"
+        alt="Bandeirinhas">
+
+    </div>
+
+
+    <div class="hero-overlay">
+
+
+        <div class="hero-content">
+
+
+            <!-- Chiquinho lado esquerdo -->
+
+            <div class="hero-image">
+
+                <img 
+                src="img/chiquinho.png"
+                alt="Chiquinho"
+                class="chiquinho-logo">
+
+            </div>
+
+
+
+            <!-- Textos lado direito -->
+
+            <div class="hero-text">
+
+
+                <h1>
+
+                    QUERMESSE
+
+                    <strong>
+                        DO CHIQUINHO
+                    </strong>
+
+                </h1>
+
+
+                <p>
+                    Cardápio Digital
+                </p>
+
+
+                <span>
+                    Paróquia São Francisco de Assis
+                </span>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</header>
+
+
+
+
+
+<!-- ================================================= -->
+<!-- MENU DE NAVEGAÇÃO -->
+<!-- ================================================= -->
+
+
+<nav>
+
+
+
+<button data-target="alimentos">
+
+
+<i class="fa-solid fa-fire"></i>
+
+
+<span>
+
+Comidas
+
+</span>
+
+
+</button>
+
+
+
+
+
+<button data-target="bebidas">
+
+
+<i class="fa-solid fa-mug-hot"></i>
+
+
+<span>
+
+Bebidas
+
+</span>
+
+
+</button>
+
+
+
+
+
+<button data-target="diversao">
+
+
+<i class="fa-solid fa-ticket"></i>
+
+
+<span>
+
+Diversão
+
+</span>
+
+
+</button>
+
+
+
+
+
+<button id="search-button">
+
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+
+</button>
+
+
+
+</nav>
+
+
+
+
+
+<!-- ================================================= -->
+<!-- PESQUISA -->
+<!-- ================================================= -->
+
+
+<section id="search-area">
+
+
+<input
+type="text"
+id="search-input"
+placeholder="Procure uma delícia da quermesse...">
+
+
+</section>
+<!-- ================================================= -->
+<!-- CONTEÚDO PRINCIPAL -->
+<!-- ================================================= -->
+
+
+<main>
+
+
+
+<!-- ================================================= -->
+<!-- ALIMENTOS -->
+<!-- ================================================= -->
+
+
+<section id="alimentos" class="category">
+
+
+    <div class="category-title">
+
+
+        <span>
+            🌽
+        </span>
+
+
+        <h2>
+            Comidas da Roça
+        </h2>
+
+
+        <span>
+            🌽
+        </span>
+
+
+    </div>
+
+
+
+    <div
+    id="alimentos-container"
+    class="products-grid">
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+<!-- ================================================= -->
+<!-- BEBIDAS -->
+<!-- ================================================= -->
+
+
+<section id="bebidas" class="category">
+
+
+    <div class="category-title">
+
+
+        <span>
+            🥤
+        </span>
+
+
+        <h2>
+            Bebidas Geladas
+        </h2>
+
+
+        <span>
+            🥤
+        </span>
+
+
+    </div>
+
+
+
+
+    <div
+    id="bebidas-container"
+    class="products-grid">
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+<!-- ================================================= -->
+<!-- DIVERSÃO -->
+<!-- ================================================= -->
+
+
+<section id="diversao" class="category">
+
+
+    <div class="category-title">
+
+
+        <span>
+            🎟️
+        </span>
+
+
+        <h2>
+            Diversão e Prêmios
+        </h2>
+
+
+        <span>
+            🎟️
+        </span>
+
+
+    </div>
+
+
+
+
+    <div
+    id="diversao-container"
+    class="products-grid">
+
+
+    </div>
+
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+
+
+
+<!-- ================================================= -->
+<!-- RODAPÉ -->
+<!-- ================================================= -->
+
+
+<footer>
+
+
+
+
+<div class="footer-logos">
+
+
+
+    <img
+    src="img/logo-paroquia.png"
+    alt="Paróquia São Francisco de Assis">
+
+
+
+
+
+    <img
+    src="img/logo-prefeitura.png"
+    alt="Prefeitura">
+
+</div>
+
+
+
+
+
+<div class="footer-text">
+
+
+    <h3>
+
+        Obrigado pela sua participação!
+
+    </h3>
+
+
+
+    <p>
+
+        A sua presença torna nossa quermesse ainda mais especial.
+
+    </p>
+
+
+    <h3>
+
+        Paróquia São Francisco de Assis <br> Secretaria de Desenvolvimento Econômico e Turismo
+
+    </h3>
+
+
+</div>
+
+
+
+
+</footer>
+
+
+
+
+
+
+<!-- ================================================= -->
+<!-- SCRIPTS -->
+<!-- ================================================= -->
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+
+</html>
