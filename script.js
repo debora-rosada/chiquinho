@@ -16,12 +16,9 @@ const produtos = [
         icone: "fa-hotdog",
         destaque: false,
         sabores: [
-            "Linguiça Toscana",
-            "Linguiça Apimentada",
+            "Linguiça",
             "Vinagrete",
             "Maionese",
-            "Ketchup",
-            "Mostarda"
         ]
     },
 
@@ -66,7 +63,7 @@ const produtos = [
         icone: "fa-hotdog",
         destaque: false,
         sabores: [
-            "Mandioca com Bacon e lenguiça",
+            "Mandioca com Bacon e linguiça",
         ]
     },
     {
@@ -145,6 +142,7 @@ const produtos = [
         sabores: [
             "Aipin",
             "chocolate",
+            "Bolo de milho",
             
         ]
     },
@@ -158,6 +156,7 @@ const produtos = [
         destaque: false,
         sabores: [
             "Coca-Cola",
+            "Coca-Cola Zero",
             "Guaraná",
             "Fanta"
         ]
@@ -179,7 +178,7 @@ const produtos = [
     {
         categoria: "bebidas",
         nome: "Suco 300ml",
-        preco: "R$ 10,00",
+        preco: "R$ 8,00",
         icone: "fa-glass-water",
         destaque: false,
         sabores: [
@@ -195,8 +194,10 @@ const produtos = [
         icone: "fa-glass-water",
         destaque: false,
         sabores: [
-            "Sckol",
             "Brama",
+            "Brama Zero",
+            "Skol",
+            "Cerveja sem glúten"
         ]
     },
     
