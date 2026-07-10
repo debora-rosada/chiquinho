@@ -16,9 +16,7 @@ const produtos = [
         icone: "fa-hotdog",
         destaque: false,
         sabores: [
-            "Linguiça",
-            "Vinagrete",
-            "Maionese",
+            "Pão com Linguiça",
         ]
     },
 
@@ -32,7 +30,6 @@ const produtos = [
             "Carne",
             "Queijo",
             "Pizza",
-            "Frango"
         ]
     },
     {
@@ -84,7 +81,6 @@ const produtos = [
         destaque: false,
         sabores: [
             "Doce",
-            "Salgada",
         ]
     },
     {
@@ -129,7 +125,6 @@ const produtos = [
         sabores: [
             "Paçoca",
             "doce de abóbora",
-            "Pé de moleque",
             "Pudim",
         ]
     },
