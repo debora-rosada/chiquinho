@@ -140,7 +140,7 @@ const produtos = [
         icone: "fa-hotdog",
         destaque: false,
         sabores: [
-            "Aipin",
+            "Aipim",
             "chocolate",
             "Bolo de milho",
             
