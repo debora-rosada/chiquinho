@@ -128,7 +128,7 @@ const produtos = [
         destaque: false,
         sabores: [
             "Paçoca",
-            "doce de abobora",
+            "doce de abóbora",
             "Pé de moleque",
             "Pudim",
         ]
