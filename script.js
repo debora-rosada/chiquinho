@@ -251,6 +251,15 @@ const produtos = [
         destaque: false,
         sabores: []
     },
+    
+    {
+        categoria: "diversao",
+        nome: "Correio elegante",
+        preco: "R$ 5,00",
+        icone: "fa-ticket",
+        destaque: false,
+        sabores: []
+    },
 
 ];
 
